@@ -39,11 +39,57 @@ Started performing in-depth analysis on irradiance and environmental data from t
 solar-challenge-week1 <br>
 ├── LICENSE <br>
 ├── README.md <br>
+├── app <br>
+│   ├── __init__.py <br>
+│   ├── __pycache__ <br>
+│   │   └── utils.cpython-312.pyc <br>
+│   ├── main.py <br>
+│   └── utils.py <br>
+├── data <br>
+│   ├── benin-malanville.csv <br>
+│   ├── benin_clean.csv <br>
+│   ├── sierraleone-bumbuna.csv <br>
+│   ├── sierraleone_clean.csv <br>
+│   ├── togo-dapaong_qc.csv <br>
+│   └── togo_clean.csv <br>
+├── figures <br>
+│   ├── average_ghi_by_country.png <br>
+│   ├── benin_bubble_ghi_tamb.png <br>
+│   ├── benin_cleaning_impact.png <br>
+│   ├── benin_correlation_heatmap.png <br>
+│   ├── benin_ghi_histogram.png <br>
+│   ├── benin_rh_vs_tamb.png <br>
+│   ├── benin_timeseries.png <br>
+│   ├── benin_ws_histogram.png <br>
+│   ├── benin_ws_vs_ghi.png <br>
+│   ├── compare_dhi_boxplot.png <br>
+│   ├── compare_dni_boxplot.png <br>
+│   ├── compare_ghi_boxplot.png <br>
+│   ├── sierraleone_bubble_ghi_tamb.png <br>
+│   ├── sierraleone_cleaning_impact.png <br>
+│   ├── sierraleone_correlation_heatmap.png <br>
+│   ├── sierraleone_ghi_histogram.png <br>
+│   ├── sierraleone_rh_vs_tamb.png <br>
+│   ├── sierraleone_timeseries.png <br>
+│   ├── sierraleone_ws_histogram.png <br>
+│   ├── sierraleone_ws_vs_ghi.png <br>
+│   ├── togo_bubble_ghi_tamb.png <br>
+│   ├── togo_cleaning_impact.png <br>
+│   ├── togo_correlation_heatmap.png <br>
+│   ├── togo_ghi_histogram.png <br>
+│   ├── togo_rh_vs_tamb.png <br>
+│   ├── togo_timeseries.png <br>
+│   ├── togo_ws_histogram.png <br>
+│   └── togo_ws_vs_ghi.png <br>
 ├── notebooks <br>
-│   └── README.md <br>
+│   ├── README.md <br>
+│   ├── benin_eda.ipynb <br>
+│   ├── compare_countries.ipynb <br>
+│   ├── sierraleone_eda.ipynb <br>
+│   └── togo_eda.ipynb <br>
 ├── requirements.txt <br>
 ├── scripts <br>
-│   └── README.md <br>
+│   ├── README.md <br>
+│   └── __init__.py <br>
 ├── src <br>
 └── tests <br>
-
